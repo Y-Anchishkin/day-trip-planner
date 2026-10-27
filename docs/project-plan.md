@@ -14,13 +14,18 @@ Web app, mobile-first. App Store / Google Play is out of scope for this project.
 ## Steps
 1. [x] Requirements — user stories and NFRs
 2. [x] Setup — Codespaces, Vite + React + TypeScript, Oxlint, GitHub
-3. [ ] Playwright setup
-   - Install and configure (Mobile Chrome, Mobile Safari/WebKit, Desktop Chrome)
-   - Auto-start the app before tests
-   - First smoke test (written by Zhenya)
-   - Run, view report, commit
+3. [x] Playwright setup — 3 profiles, smoke test
 4. [ ] Screens with fake data + E2E tests per screen
-   - Global preferences, New trip, Trip plan
+   - [ ] 4.1 Routing, mobile layout, empty screens
+   - [ ] Design phase
+     - [x] D1 Visual direction: clean, minimal, tropical; light mode only; polished mockups (no wireframes)
+     - [ ] D2 Design system (colours, type, spacing, components)
+     - [ ] D3 Mockups: Preferences, New trip, Trip plan + validation error, "no plan fits", desktop view
+     - [ ] D4 Review mockups against user stories
+     - [ ] D5 Handoff: design tokens → CSS variables, components → React components
+   - [ ] 4.2 Preferences screen + browser storage
+   - [ ] 4.3 New trip screen
+   - [ ] 4.4 Trip plan screen with fake plan
 5. [ ] Trip logic with hand-made Valencia places + Vitest unit tests
 6. [ ] AI and real data
 7. [ ] Deploy the website
